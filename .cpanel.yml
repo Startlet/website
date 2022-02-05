@@ -4,7 +4,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp assets/css/style.css $DEPLOYPATH
     - /bin/cp assets/img $DEPLOYPATH
-    -/bin/cp assets/js $DEPLOYPATH
-    -/bin/cp assets/vendor $DEPLOYPATH
-    
+    - /bin/cp assets/js $DEPLOYPATH
+    - /bin/cp assets/vendor $DEPLOYPATH
+
     
