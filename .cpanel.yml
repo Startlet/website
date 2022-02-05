@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/startlet/public_html/
-    - /bin/cp * $DEPLOYPATH
-    
+    - /bin/cp -R website-final $DEPLOYPATH
